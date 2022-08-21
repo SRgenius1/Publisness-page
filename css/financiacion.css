@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.main-title span {
+    color: red;
+}
+
+.main-section-item1 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.main-section-item1 span {
+    color: red;
+}
+
+.main-section-item1 img {
+    width: 50%;
+}
+
+.main-section-item2 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.main-section-item2 span {
+    color: red;
+}
+
+.main-section-item2 h1 {
+    margin-bottom: 30px;
+}
+
+.main-section-item2 img {
+    width: 50%;
+}
+
+.main-section-item2 a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    box-shadow: 2px 1px 10px rgb(31, 30, 30);
+}
+
+.main-title {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 4s;
+}
+
+.main-section-item2 a {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 4s;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.main-section-item2 a:hover {
+    background-color: white;
+    color: black;
+}
